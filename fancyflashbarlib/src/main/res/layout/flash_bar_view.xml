@@ -7,7 +7,7 @@
     android:layout_marginBottom="12dp"
     android:layout_marginTop="12dp">
 
-    <ImageView
+    <!--<ImageView
         android:layout_width="32dp"
         android:layout_height="32dp"
         android:layout_alignParentStart="true"
@@ -21,7 +21,7 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentTop="true"
         android:layout_marginEnd="16dp"
-        app:srcCompat="@drawable/androidicon" />
+        app:srcCompat="@drawable/androidicon" />-->
 
 
     <ir.beigirad.zigzagview.ZigzagView
@@ -71,7 +71,19 @@
                             android:layout_marginRight="@dimen/fb_margin_progress"
                             android:visibility="gone" />
 
-                        <ImageView
+                        <com.airbnb.lottie.LottieAnimationView
+                            android:id="@+id/fbIcon"
+                            android:layout_width="@dimen/fb_icon_size"
+                            android:layout_height="@dimen/fb_icon_size"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginEnd="8dp"
+                            android:layout_marginStart="8dp"
+                            app:lottie_autoPlay="true"
+                            app:lottie_loop="true"
+                            app:lottie_rawRes="@raw/info2"
+                            android:visibility="gone"
+                            tools:visibility="visible"/>
+                        <!--<ImageView
                             android:id="@+id/fbIcon"
                             android:layout_width="@dimen/fb_icon_size"
                             android:layout_height="@dimen/fb_icon_size"
@@ -80,7 +92,7 @@
                             android:layout_marginLeft="8dp"
                             android:src="@drawable/green_shield"
                             android:visibility="gone"
-                            tools:visibility="visible" />
+                            tools:visibility="visible" />-->
 
                         <LinearLayout
                             android:layout_width="0dp"
