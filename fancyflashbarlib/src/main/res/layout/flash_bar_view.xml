@@ -73,8 +73,8 @@
 
                         <com.airbnb.lottie.LottieAnimationView
                             android:id="@+id/fbIcon"
-                            android:layout_width="@dimen/fb_icon_size"
-                            android:layout_height="@dimen/fb_icon_size"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
                             android:layout_gravity="center_vertical"
                             android:layout_marginEnd="8dp"
                             android:layout_marginStart="8dp"
