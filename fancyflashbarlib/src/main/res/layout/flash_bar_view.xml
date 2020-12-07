@@ -29,7 +29,7 @@
         android:layout_height="wrap_content"
         app:zigzagBackgroundColor="@color/white"
         app:zigzagElevation="6dp"
-        app:zigzagHeight="8dp"
+        app:zigzagHeight="0dp"
         android:layout_marginTop="16dp"
         app:zigzagShadowAlpha="0.9"
         app:zigzagSides="top|bottom">
