@@ -24,15 +24,9 @@
         app:srcCompat="@drawable/androidicon" />-->
 
 
-    <ir.beigirad.zigzagview.ZigzagView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:zigzagBackgroundColor="@color/white"
-        app:zigzagElevation="6dp"
-        app:zigzagHeight="0.5dp"
-        android:layout_marginTop="16dp"
-        app:zigzagShadowAlpha="0.9"
-        app:zigzagSides="top|bottom">
+        android:layout_height="wrap_content">
 
             <LinearLayout
                 android:id="@+id/fbRoot"
@@ -189,7 +183,7 @@
 
             </LinearLayout>
 
-    </ir.beigirad.zigzagview.ZigzagView>
+    </LinearLayout>
 
 
 
