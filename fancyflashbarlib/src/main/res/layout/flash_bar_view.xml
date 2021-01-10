@@ -35,10 +35,8 @@
                 android:background="@color/white"
                 android:clickable="true"
                 android:focusable="true"
-                android:paddingBottom="8dp"
-                android:paddingTop="8dp"
-                android:paddingLeft="@dimen/fb_content_padding_all"
-                android:paddingRight="@dimen/fb_content_padding_all"
+                android:layout_marginLeft="@dimen/fb_content_padding_all"
+                android:layout_marginRight="@dimen/fb_content_padding_all"
                 android:foreground="?android:attr/selectableItemBackground"
                 android:orientation="vertical">
 
@@ -65,7 +63,7 @@
                             android:layout_marginRight="@dimen/fb_margin_progress"
                             android:visibility="gone" />
 
-                        <com.airbnb.lottie.LottieAnimationView
+                        <!--<com.airbnb.lottie.LottieAnimationView
                             android:id="@+id/fbIcon"
                             android:layout_width="100dp"
                             android:layout_height="100dp"
@@ -77,7 +75,7 @@
                             app:lottie_rawRes="@raw/info2"
                             android:visibility="gone"
                             tools:visibility="visible"/>
-                        <!--<ImageView
+                        <ImageView
                             android:id="@+id/fbIcon"
                             android:layout_width="@dimen/fb_icon_size"
                             android:layout_height="@dimen/fb_icon_size"
